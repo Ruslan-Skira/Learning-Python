@@ -2,7 +2,7 @@ import requests
 
 URL = 'https://api.openweathermap.org/data/2.5/weather?'
 KEY = '325ff0879cb768986c2ff03b7593da2f'
-#city = input('Your city: ')
+#city = input('Your city: '). # TODO: move it in 27 line
 
 
 def get_weather(city: str) -> str:
